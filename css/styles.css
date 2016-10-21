@@ -1,0 +1,47 @@
+body {
+  background: #2c3e50;
+  font-variant: small-caps;
+  color: #fff;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.header .btn-default {
+  border: 0px;
+  border-radius: 0;
+  padding: 8px 30px;
+  background-color: #ff003d;
+}
+
+.logo img {
+  width: 105;
+  height: 75;
+}
+
+.main{
+  color: #2c3e50;
+}
+
+.jumbotron{
+  background: #95a5a6;
+} 
+
+.supporting-2{
+  background: #000;
+}
+
+[class*="supporting-"]{
+  padding: 100px;  
+}
+
+.supporting-4{
+  background-image: url('../img/supporting-4-bg.jpg');
+  background-size: cover;
+  color:#000;
+}
+
+.footer {
+  padding: 50px;
+}

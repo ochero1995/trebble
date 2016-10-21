@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  background: #161718;
+  color: #000;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.header .btn-default {
+  border: 0px;
+  border-radius: 0;
+  padding: 8px 30px;
+  background-color: #161718;
+}
+
+.logo img {
+  width: 105;
+  height: 75;
+  padding: 10px;
+}
+
+.main{
+  color: #fff;
+}
+
+.jumbotron{
+  background: url('../img/header-bg.jpg');
+  background-size: cover; 
+}
+
+.supporting-2{
+  background: #000;
+}
+
+[class*="supporting-"]{
+  padding: 100px;  
+}
+
+.supporting-4{
+  background: url('../img/supporting-4-bg.jpg') center center fixed no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  padding: 50px;
+}
